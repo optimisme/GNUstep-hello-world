@@ -6,6 +6,8 @@ Contains a simple example with a minimal semitransparent window and a menu, can 
 
 There is very litte information on how to develop apps using GNUstep, this is for me to remember the most basic steps to begin an application that (somehow) integrates well with Gnome.
 
+
+
 ### GNUStep Installation steps (Ubuntu 21.10)
 
 ```
@@ -26,11 +28,17 @@ defaults read NSGlobalDomain
 
 ** The previous commands will change the behaviour of all GNUstep applications
 
+
+
 ### Set up, compile and run this example
 
+```
 . /usr/share/GNUstep/Makefiles/GNUstep.sh
 make
 ./Hello.app/Hello
+```
+
+
 
 ## Helpful tutorial, create a more simple 'Hello World', text based                
 
@@ -69,6 +77,8 @@ Set up, compile and run:
 make
 ./obj/hello
 ```
+
+
 
 ## Helpful tutorial, Run GNUstep examples
 
