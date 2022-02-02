@@ -108,4 +108,20 @@ make
 ./MyGL.app/MyGL
 ```
 
-## Helpful tutorial, set up defaults graphically
+## Tutorial, set up defaults graphically
+
+This is the oficial graphics based application to set up GNUstep
+
+```
+https://github.com/gnustep/apps-systempreferences
+```
+
+Set up, compile and run with:
+
+```
+. /usr/share/GNUstep/Makefiles/GNUstep.sh
+cd apps-systempreferences-master
+make
+./SystemPreferences/SystemPreferences.app/SystemPreferences
+```
+
