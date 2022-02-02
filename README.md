@@ -108,7 +108,7 @@ make
 ./MyGL.app/MyGL
 ```
 
-## Tutorial, set up defaults graphically
+### Tutorial, set up defaults graphically
 
 This is the oficial graphics based application to set up GNUstep
 
