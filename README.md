@@ -23,6 +23,7 @@ defaults read NSGlobalDomain
 ```
 
 ** Options are: write, read and delete
+
 ** The previous commands will change the behaviour of all GNUstep applications
 
 ### Set up, compile and run this example
