@@ -1,0 +1,10 @@
+{
+  ApplicationName = "Hello";
+  ApplicationDescription = "A Little GNUstep GUI Demo";
+  ApplicationRelease = "Hello 1.0";
+  FullVersionID = "1 Jan 2021";
+  Authors = ("APJ");
+  Copyright = "Copyright (C) 2021, APJ";
+  CopyrightDescription = "Released under the GNU General Public License 2.0";
+  NSIcon = Icon.app.tiff;
+}
