@@ -15,8 +15,16 @@ sudo apt install gnustep gnustep-devel build-essential clang
 sudo apt install libgl-dev libglu1-mesa-dev
 ```
 
-My recommended defaults for non OpenStep desktops are:
+The command to change the deaults to my recommended defaults are:
 
+```
+defaults write Hello GSSuppressAppIcon YES
+defaults write Hello GSAppOwnsMiniwindow NO
+defaults write Hello NSMenuInterfaceStyle NSWindows95InterfaceStyle
+defaults read Hello
+```
+
+Set defaults globally to all GNUStep apps:
 ```
 defaults write NSGlobalDomain GSSuppressAppIcon YES
 defaults write NSGlobalDomain GSAppOwnsMiniwindow NO
@@ -25,9 +33,6 @@ defaults read NSGlobalDomain
 ```
 
 ** Options are: write, read and delete
-
-** The previous commands will change the behaviour of all GNUstep applications
-
 
 
 ## Set up, compile and run this example
