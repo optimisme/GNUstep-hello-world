@@ -2,7 +2,7 @@
 
 This is a tutorial showing how to setup GNUStep on Ubuntu 21.10.
 
-Contains a simple example with a minimal semitransparent window and a menu, can be a start up point to bigger projects or just for learning purposes.
+Contains a simple example with a minimal semitransparent window and a menu, can be a start up point of bigger projects or just for learning purposes.
 
 There is very litte information on how to develop apps using GNUstep, this is for me to remember the most basic steps to begin an application that (somehow) integrates well with Gnome.
 
@@ -13,7 +13,7 @@ sudo apt install gnustep gnustep-devel build-essential clang
 sudo apt install libgl-dev libglu1-mesa-dev
 ```
 
-On non GNUStep desktops my recommended defaults are:
+My recommended defaults for non OpenStep desktops are:
 
 ```
 defaults write NSGlobalDomain GSSuppressAppIcon YES
@@ -22,7 +22,8 @@ defaults write NSGlobalDomain NSMenuInterfaceStyle NSWindows95InterfaceStyle
 defaults read NSGlobalDomain
 ```
 
-* Options are: write, read and delete
+** Options are: write, read and delete
+** The previous commands will change the behaviour of all GNUstep applications
 
 ### Set up, compile and run this example
 
@@ -93,3 +94,5 @@ cd tests-examples-master/gui/MyGL
 make
 ./MyGL.app/MyGL
 ```
+
+## Helpful tutorial, set up defaults graphically
