@@ -53,7 +53,7 @@ void createMenu ()
    [window setTitle: @"Window title"];
    [window center];
    [window setOpaque: NO];
-   NSColor *bc = [NSColor colorWithDeviceRed:0.5 green:1.0 blue:1.0 alpha:0.5];
+   NSColor *bc = [NSColor colorWithDeviceRed:0.5 green:1.0 blue:1.0 alpha:0.75];
    [window setBackgroundColor: bc];
 
    /* Create Label */
