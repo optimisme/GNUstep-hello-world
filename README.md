@@ -1,4 +1,4 @@
-### About
+## About
 
 This is a tutorial showing how to setup GNUStep on Ubuntu 21.10.
 
@@ -8,7 +8,7 @@ There is very litte information on how to develop apps using GNUstep, this is fo
 
 
 
-### GNUStep Installation steps (Ubuntu 21.10)
+## GNUStep Installation steps (Ubuntu 21.10)
 
 ```
 sudo apt install gnustep gnustep-devel build-essential clang
@@ -30,17 +30,19 @@ defaults read NSGlobalDomain
 
 
 
-### Set up, compile and run this example
+## Set up, compile and run this example
 
 ```
+cd GNUstep-hello-world
 . /usr/share/GNUstep/Makefiles/GNUstep.sh
 make
 ./Hello.app/Hello
 ```
 
+## Other helpful resources
 
 
-## Helpful tutorial, create a more simple 'Hello World', text based                
+### Tutorial, create a more simple 'Hello World', text based                
 
 Create a file named hello.m
 
@@ -80,7 +82,7 @@ make
 
 
 
-## Helpful tutorial, Run GNUstep examples
+### Tutorial, Run GNUstep examples
 
 Get the files from:
 
