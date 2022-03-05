@@ -1,5 +1,4 @@
 [Desktop Entry]
 Type=Application
 Categories=X-GNUstep;
-Icon=/usr/local/lib/GNUstep/Applications.app/Resources/Icon.app.tiff
-Exec=/usr/bin/openapp Hello
+Exec=/usr/GNUstep/System/Tools/openapp Hello

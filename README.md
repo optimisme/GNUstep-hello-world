@@ -11,8 +11,11 @@ There is very litte information on how to develop apps using GNUstep, this is fo
 ## GNUStep Installation steps (Ubuntu 21.10)
 
 ```
-sudo apt install gnustep gnustep-devel build-essential clang
+sudo apt install build-essential clang
 sudo apt install libgl-dev libglu1-mesa-dev
+git clone https://github.com/plaurent/gnustep-build
+cd gnustep-build/ubuntu-20.04-clang-10.0-runtime-2.0/
+./GNUstep-buildon-ubuntu2004.sh
 ```
 
 The command to change the deaults to my recommended defaults are:
@@ -38,56 +41,14 @@ defaults read NSGlobalDomain
 ## Set up, compile and run this example
 
 ```
+git clone https://github.com/optimisme/GNUstep-hello-world.git
 cd GNUstep-hello-world
 . /usr/share/GNUstep/Makefiles/GNUstep.sh
 make
 ./Hello.app/Hello
 ```
 
-## Other helpful resources
-
-
-### Tutorial, create a more simple 'Hello World', text based                
-
-Create a file named hello.m
-
-```
-#import <Foundation/Foundation.h>
-
-int main (int argc, const char * argv[])
-{
-        NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-        NSLog (@"hello world");
-        [pool drain];
-        return 0;
-}
-```	
-
-Create a file named GNUmakefile
-
-```
-GNUSTEP_MAKEFILES = /usr/share/GNUstep/Makefiles
-
-include $(GNUSTEP_MAKEFILES)/common.make
-
-TOOL_NAME = hello
-hello_OBJC_FILES = main.m
-
--include GNUmakefile.preamble
-include $(GNUSTEP_MAKEFILES)/tool.make
-```
-
-Set up, compile and run:
-
-```
-. /usr/share/GNUstep/Makefiles/GNUstep.sh
-make
-./obj/hello
-```
-
-
-
-### Tutorial, Run GNUstep examples
+## Tutorial, Run GNUstep examples
 
 Get the files from:
 
