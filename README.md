@@ -8,14 +8,14 @@ There is very litte information on how to develop apps using GNUstep, this is fo
 
 
 
-## GNUStep Installation steps (Ubuntu 21.10)
+## GNUStep Installation steps (Ubuntu 22.04)
 
 ```
 sudo apt install build-essential clang
 sudo apt install libgl-dev libglu1-mesa-dev
 git clone https://github.com/plaurent/gnustep-build
-cd gnustep-build/ubuntu-20.04-clang-10.0-runtime-2.0/
-./GNUstep-buildon-ubuntu2004.sh
+cd gnustep-build/ubuntu-22.04-clang-14.0-runtime-2.1/
+./GNUstep-buildon-ubuntu2204.sh
 ```
 
 The command to change the deaults to my recommended defaults are:
@@ -85,7 +85,7 @@ https://github.com/gnustep/apps-systempreferences
 Set up, compile and run with:
 
 ```
-. /usr/share/GNUstep/Makefiles/GNUstep.sh
+. /usr/GNUstep/System/Library/Makefiles/GNUstep.sh
 cd apps-systempreferences-master
 make
 ./SystemPreferences/SystemPreferences.app/SystemPreferences
