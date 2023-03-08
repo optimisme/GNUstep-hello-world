@@ -43,7 +43,7 @@ defaults read NSGlobalDomain
 ```
 git clone https://github.com/optimisme/GNUstep-hello-world.git
 cd GNUstep-hello-world
-. /usr/share/GNUstep/Makefiles/GNUstep.sh
+. /usr/GNUstep/System/Library/Makefiles/GNUstep.sh
 make
 ./Hello.app/Hello
 ```
@@ -60,7 +60,7 @@ http://www.gnustep.org/experience/examples.html
 Example on how to set up, compile and run Calculator:
 
 ```
-. /usr/share/GNUstep/Makefiles/GNUstep.sh
+. /usr/GNUstep/System/Library/Makefiles/GNUstep.sh
 cd tests-examples-master/gui/Calculator
 make
 ./Calculator.app/Calculator
