@@ -1,7 +1,7 @@
 {
   ApplicationName = "Hello";
   ApplicationDescription = "A Little GNUstep GUI Demo";
-  ApplicationRelease = "Hello 1.0";
+  ApplicationRelease = 1.0;
   ApplicationIcon = "AppIcon.tiff";
   NSIcon = "AppIcon.tiff";
   FullVersionID = "1 Jan 2021";
