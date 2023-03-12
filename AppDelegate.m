@@ -35,10 +35,6 @@
     [window setBackgroundColor:backgroundColor];
     [window makeKeyAndOrderFront:nil];
 
-    // Navigation Bar
-
-
-
     // Label
     label = [[NSTextField alloc] initWithFrame: NSMakeRect(30, 30, 80, 30)];
     [label setSelectable:NO];
@@ -48,7 +44,8 @@
     [[window contentView] addSubview:label];
 }
 
-- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+// Terminates the application when the window is closed.
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
     return YES;
 }
 
