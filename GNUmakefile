@@ -1,14 +1,16 @@
 include $(GNUSTEP_MAKEFILES)/common.make
 
 APP_NAME = Hello
-PACKAGE_NAME = Hello
-VERSION = 1.0
 
-Hello_OBJC_FILES = main.m \
-  AppDelegate.m
-Hello_OBJC_HEADERS = AppDelegate.h
-Hello_RESOURCE_FILES = Icon.app.tiff
+Hello_HEADERS = \
+  AppDelegate.h \
 
+Hello_OBJC_FILES = \
+  main.m \
+  AppDelegate.m \
+
+Hello_RESOURCE_FILES = \
+  Resources\AppIcon.tiff \
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/application.make
