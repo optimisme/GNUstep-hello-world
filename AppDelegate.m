@@ -35,6 +35,10 @@
     [window setBackgroundColor:backgroundColor];
     [window makeKeyAndOrderFront:nil];
 
+    // Navigation Bar
+
+
+
     // Label
     label = [[NSTextField alloc] initWithFrame: NSMakeRect(30, 30, 80, 30)];
     [label setSelectable:NO];
@@ -42,6 +46,10 @@
     [label setDrawsBackground:NO];
     [label setStringValue:@"Hello World"];
     [[window contentView] addSubview:label];
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
 }
 
 
