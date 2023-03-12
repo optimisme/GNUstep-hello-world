@@ -5,8 +5,8 @@ PACKAGE_NAME = Hello
 VERSION = 1.0
 
 Hello_OBJC_FILES = main.m \
-  AppController.m
-Hello_OBJC_HEADERS = AppController.h
+  AppDelegate.m
+Hello_OBJC_HEADERS = AppDelegate.h
 Hello_RESOURCE_FILES = Icon.app.tiff
 
 
