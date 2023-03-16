@@ -2,8 +2,8 @@
   ApplicationName = "Hello";
   ApplicationDescription = "A Little GNUstep GUI Demo";
   ApplicationRelease = 1.0;
-  ApplicationIcon = "AppIcon.tiff";
-  NSIcon = "AppIcon.tiff";
+  ApplicationIcon = "./Resources/AppIcon.tiff";
+  NSIcon = "./Resources/AppIcon.tiff";
   FullVersionID = "1 Jan 2021";
   Authors = ("APJ");
   Copyright = "Copyright (C) 2021, APJ";

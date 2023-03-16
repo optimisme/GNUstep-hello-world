@@ -4,5 +4,6 @@
   NSMainNibFile = "";
   NSMainStoryboardFile = "";
   GSMainMarkupFile = "";
+  NSIcon = "AppIcon.png";
   NSPrincipalClass = "NSApplication";
 }
