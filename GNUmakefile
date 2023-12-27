@@ -1,3 +1,9 @@
+CC=clang
+OBJC = clang
+ADDITIONAL_OBJCFLAGS += -fobjc-arc
+ADDITIONAL_OBJCFLAGS += -DGNS
+#ADDITIONAL_CPPFLAGS += -DGNS
+
 include $(GNUSTEP_MAKEFILES)/common.make
 
 APP_NAME = Hello
@@ -11,7 +17,7 @@ Hello_OBJC_FILES = \
   AppDelegate.m \
 
 Hello_RESOURCE_FILES = \
-  Resources/AppIcon.png \
+  Resources/*.png \
 
 -include GNUmakefile.preamble
 include $(GNUSTEP_MAKEFILES)/application.make
